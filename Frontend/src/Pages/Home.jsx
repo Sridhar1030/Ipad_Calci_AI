@@ -166,40 +166,6 @@ export default function Home() {
     };
 
 
-
-
-    // const runRoute = async () => {
-    //     const canvas = canvasRef.current;
-    
-    //     if (canvas) {
-    //         // Mock response instead of calling the backend
-    //         const mockResponse = {
-    //             data: [
-    //                 { expr: 'x + y', result: 'z', assign: true },
-    //                 { expr: 'a * b', result: 'c', assign: true },
-    //             ]
-    //         };
-    
-    //         // Simulating processing the mock response
-    //         mockResponse.data.forEach((data) => {
-    //             if (data.assign === true) {
-    //                 setDictOfVars({
-    //                     ...dictOfVars,
-    //                     [data.expr]: data.result
-    //                 });
-    //             }
-    //         });
-    
-    //         // Create a sample LaTeX and log it
-    //         const latex = `\\(\\LARGE{${mockResponse.data[0].expr} = ${mockResponse.data[0].result}}\\)`;
-            
-    //         // Call the function to render LaTeX
-    //         renderLatexToCanvas(mockResponse.data[0].expr, mockResponse.data[0].result);
-            
-    //     }
-    // };
-    
-
     return (
         <>
             <div className="grid grid-cols-3 gap-2">
